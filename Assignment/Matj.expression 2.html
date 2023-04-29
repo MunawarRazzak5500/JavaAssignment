@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+
+ // math expression 2  start  //
+
+//math wexpression 2 //
+
+
+var a = 10;
+var b = 9;
+var result = ++b;
+var results = a++;
+console.log(result);
+console.log(results);
+
+var a = 10;
+var b = 9;
+var result = --b;
+var result = ++b;
+var result = --b
+var results = a--;
+console.log(result);
+console.log(results);
+
+document.write("chapters 6-9 & result for console")
+// var a=10;
+var b = 9;
+var c = ++b;
+var d = --b;
+var e = b--;
+var f = --b;
+// console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+// console.log(e)
+console.log(f)
+// QUESTION1 END
+
+
+   // question 2 //
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--
+document.write(result)
+
+  //  question 3 //
+var s1 =+prompt("Enter your obtained Mark for English Subject", "out Of 100")
+var s2 =+prompt("Enter your obtained Mark for Urdu Subject", "out Of 100")
+var s3 =+prompt("Enter your obtained Mark for Math Subject", "out Of 100")
+var totalMark = 100;
+var tS = s1 + s2 + s3;
+var m1 = (totalMark * s1) / 100;
+var m2 = (totalMark * s2) / 100;
+var m3 = (totalMark * s3) / 100;
+var percentage = m1 + m2 + m3;
+var per = (percentage / 300) * 100;
+document.write(
+   `<table>
+      <tr>
+          <th>Subject</th>
+          <th>Total Mark</th>
+          <th>Obtained Mark</th>
+          <th>Percentage</th>
+     </tr>
+     <tr>
+     <td>English</td>
+     <td>${totalMark}</td>
+     <td>${s1}</td>
+     <td>${m1 + "%"}</td>
+
+</tr>
+<tr>
+<td>Urdu</td>
+<td>${totalMark}</td>
+<td>${s2}</td>
+<td>${m2 + "%"}</td>
+
+</tr>
+<tr>
+<td>Math</td>
+<td>${totalMark}</td>
+<td>${s3}</td>
+<td>${m3 + "%"}</td>
+</tr>
+<tr>
+<td></td>
+<td>300</td>
+<td>${tS}</td>
+<td>${per + "%"}</td>
+
+</tr>
+     </table>`
+)
+    </script>
+</body>
+</html>

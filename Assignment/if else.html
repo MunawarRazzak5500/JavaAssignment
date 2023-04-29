@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //java if else Question Answer  //
+       //     Q 1          //
+var char = prompt("Enter a character:");
+var ascii_code = char.charCodeAt(0);
+if (ascii_code >= 48 && ascii_code <= 57) {
+    alert("Input is a number");
+}
+else if (ascii_code >= 65 && ascii_code <= 90) {
+    alert("Input is an uppercase letter");
+}
+else if (ascii_code >= 97 && ascii_code <= 122) {
+    alert("Input is a lowercase letter");
+}
+
+else {
+    console.log("Invalid input");
+}
+
+        //   Q  2          //
+var num1 = prompt("Enter a first integer")
+var num2 = prompt("Enter a second enteger")
+if(num1 > num2){
+  alert("The larger number is " + num1)
+} else if(num2 > num1){
+  alert("The larger number is " + num2)
+}else{
+  alert("Both Number Are Equal")
+}
+   //    Q 3          //
+var num =prompt("Enter a number");
+if(num > 0){
+  alert("The Number Is positive")
+} else if(num < 0){
+  alert("The Number Is negaitive")
+}else{
+  alert("The number is zero")
+}
+    //   Q 5          //
+
+var char = prompt("Enter a character of vowel:");
+char = char.toLowerCase();
+if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+    alert("The character is a vowel");
+}
+else {
+    alert("The character is not a vowel");
+}
+     //  Q    6       //
+
+let correctPassword = "mypassword";
+
+
+var userPassword = prompt("Enter your password:");
+
+
+if (userPassword === "") {
+    alert("Please enter your password");
+}
+
+
+else if (userPassword === correctPassword) {
+    alert("Correct! The password you entered matches the original password");
+}
+
+else {
+    alert("Incorrect password");
+}
+
+
+var greeting;
+var hour = 13;
+
+if (hour < 18) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+    </script>
+</body>
+</html>

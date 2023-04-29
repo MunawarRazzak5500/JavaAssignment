@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //  q 1     //
+var studentNames = [];
+var studentNames = new Array();
+var stringArray = ["apple", "banana", "orange"];
+var numbersArray = [1, 2, 3, 4, 5];
+var booleanArray = [true, false, true];
+var mixedArray = ["apple", 1, true, "banana", false];
+var educationQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+document.write("<h2>List of Education Qualifications in Pakistan:</h2>");
+for (let i = 0; i < educationQualifications.length; i++) {
+  document.write(educationQualifications[i] + "<br>");
+}
+
+ //                    q2    //
+ let studentNames = ['Munawar', 'Ali', 'Razzak']; // array of student names
+ let studentScores = [320, 230, 480]; // array of student scores (out of 500)
+ 
+ for (let i = 0; i < studentNames.length; i++) {
+   let percentage = (studentScores[i] / 500) * 100; // calculate percentage
+   document.write(`${studentNames[i]} scored ${studentScores[i]} marks out of 500, which is ${percentage}%` + "<br>"); // display student name, score, and percentage
+ }
+ 
+
+//  arrays   //
+let futureStudents = [];
+let futureStudent = new Array();
+let fruits = ["apple", "banana", "cherry"];
+let numbers = [1, 2, 3, 4, 5];
+let booleanArr = [true, false, true];
+let mixedArr = ["John", 25, true, "London"];
+
+let educationQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+document.write("<h3>Available education qualifications in Pakistan:</h3>");
+document.write("<ol>");
+for (let i = 0; i < educationQualifications.length; i++) {
+  document.write("<li>" + educationQualifications[i] + "</li>");
+}
+document.write("</ol>");
+
+
+
+
+
+
+
+
+
+    //    3        //
+
+let num = prompt("Enter a number:");
+
+let reversedNum = parseInt(num.toString().split("").reverse().join(""));
+
+alert(reversedNum);
+
+
+            //     4                //
+
+const cities = ['New York', 'London', 'Paris', 'Tokyo', 'Sydney'];
+
+const selectedCities = cities.slice(1, 4); 
+alert("Cities" + cities);
+alert("Selected" + selectedCities);
+
+         //        5                //
+var arr = ["This", "is", "my", "cat"];
+var str = arr.join(" "); 
+console.log(str); 
+
+// //        6                //
+const myArra = [];
+myArray.push('first');
+myArray.push('second');
+myArray.push('third');
+
+alert(myArra.shift()); 
+alert(myArra.shift()); 
+alert(myArra.shift()); 
+
+const myArray = [];
+myArray.push('first');
+myArray.push('second');
+myArray.push('third');
+
+alert(myArray.pop()); 
+alert(myArray.pop()); 
+alert(myArray.pop()); 
+
+
+//                  7             //
+
+let phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+
+document.write("<select>");
+for (let i = 0; i < phoneManufacturers.length; i++) {
+  document.write("<option>" + phoneManufacturers[i] + "</option>");
+}
+document.write("</select>");
+
+    </script>
+</body>
+</html>

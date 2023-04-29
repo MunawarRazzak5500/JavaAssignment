@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+              // string    start       //
+
+
+
+
+       //   1//
+ let firstName = prompt("Enter your first name:");
+let lastName = prompt("Enter your last name:");
+let fullName = firstName + " " + lastName;
+alert("Hello " + fullName + "!");
+
+
+
+
+
+
+
+   //2//
+   let phoneModel = prompt("Enter your favorite mobile phone model:");
+let length = phoneModel.length;
+alert("Length of input string: " + length);
+
+
+
+
+
+
+
+//3//
+let word = "Pakistani";
+let index = word.indexOf("n");
+alert("Index of 'n': " + index);
+
+
+
+//4//
+let worc = "Hello World";
+let lastIndex = worc.lastIndexOf("l");
+alert("Last index of 'l': " + lastIndex);
+
+
+
+
+//     5    //
+let wor = "Pakistani";
+let character = wor.charAt(3);
+alert("Character at 3rd index: " + character);
+
+
+
+
+
+
+
+//     7  //
+let city = "Hyderabad";
+let newCity = city.replace("Hyder", "Islam");
+alert("Replaced city name: " + newCity);
+
+
+
+
+   
+
+
+
+//  8  //
+let message = "Ali and Sami are best friends. They play cricket and football together.";
+let newMessage = message.replace(/and/g, "&");
+alert("New message: " + newMessage);
+
+
+
+
+
+
+
+//  9  //
+
+let str = "472";
+let num = Number(str);
+alert("Value: " + num + "\nType: " + typeof num);
+
+
+
+
+
+
+
+
+// 10 //
+
+let input = prompt("Enter some text:");
+let capital = input.toUpperCase();
+alert("Uppercase text: " + capital);
+
+
+
+
+
+
+
+
+let inpu = prompt("Enter some text:");
+let title = inpu.toLowerCase().split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+alert("Title case text: " + title);
+
+
+
+
+
+
+
+
+
+let username = prompt("Enter username:");
+let regex = /[@.,!]/;
+if (regex.test(username)) {
+  alert("Enter a valid username.");
+} else {
+  alert("Username is valid.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+let items = ["cake", "apple pie", "cookie", "chips", "patties"];
+let search = prompt("Enter an item to search:");
+let found = false;
+for (let i = 0; i < items.length; i++) {
+  if (items[i].toLowerCase() === search.toLowerCase()) {
+    found = true;
+    break;
+  }
+}
+if (found) {
+  alert(search + " is available in our bakery.");
+} else {
+  alert(search + " is not available in our bakery.");
+}
+
+    </script>
+</body>
+</html>

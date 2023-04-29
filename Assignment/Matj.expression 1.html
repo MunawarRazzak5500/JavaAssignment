@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+ // math expression 1  start  //
+var num1 = 3;
+var num2 = 5;
+var num3 = num1 + num2;
+document.write("Sum Of " + num1 + " and " + num2 + " is " + num3+ "<br>")
+
+var num3 = num1 - num2;
+document.write("Subtraction Of " + num1 + " and " + num2 + " is " + num3 + "<br>")
+
+var num3 = num1 * num2;
+document.write("Multiplication Of " + num1 + " and " + num2 + " is " + num3 + "<br>")
+
+var num3 = num1 / num2;
+document.write("Division Of " + num1 + " and " + num2 + " is " + num3 + "<br>")
+
+var num3 = num1 % num2;
+document.write("Modulus Of " + num1 + " and " + num2 + " is " + num3 + "<br>")
+
+
+var num;
+document.write("Value After variable is   " + num+ "<br>")
+
+var num = 5;
+document.write("initial Value  " + num+ "<br>")
+
+num++
+document.write("value after increament is: " + num+ "<br>")
+
+num += 7;
+document.write("value after addition is: " + num+ "<br>")
+
+num--
+document.write("value after decreament is: " + num + "<br>")
+
+document.write("The Reminder  is: " + (num % 3) + "<br>");
+
+
+
+
+
+
+  // questin 2 //
+var price = 5 * 600;
+document.write("Total cost to buy 5 tickets to a movies is " + price + "PKR")
+
+
+
+
+
+
+//   question 3 //
+document.write("4 " + "x " + "1 " + "= " + (4*1) + "<br>")
+document.write("4 " + "x " + "2 " + "= " +  (4*2) + "<br>")
+document.write("4 " + "x " + "3 " + "= " +  (4*3) + "<br>")
+document.write("4 " + "x " + "4 " + "= " +  (4*4) + "<br>")
+document.write("4 " + "x " + "5 " + "= " +  (4*5) + "<br>")
+document.write("4 " + "x " + "6 " + "= " +  (4*6) + "<br>")
+document.write("4 " + "x " + "7 " + "= " +  (4*7) + "<br>")
+document.write("4 " + "x " + "8 " + "= " +  (4*8) + "<br>")
+document.write("4 " + "x " + "9 " + "= " +  (4*9) + "<br>")
+document.write("4 " + "x " + "10 " + "=  " + (4*10) + "<br>")
+
+
+
+
+//  Question4   //
+var priceItem1 = 650;
+var quantityItem1 = 3;
+var priceItem2 = 100;
+var quantityItem2 = 7;
+var shippingCharges = 100;
+var total = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2)
+var totalCost = shippingCharges + total;
+document.write("<h1> Shpping Cart </h1>")
+
+document.write("Price Of Item 1 is " + priceItem1 + "<br>")
+
+document.write("Quantity Of Item 1 is " + quantityItem1 + "<br>")
+
+document.write("Price Of Item 2 is " + priceItem2 + "<br>")
+
+document.write("Quantity Of Item 2 is " + quantityItem2 + "<br>")
+
+document.write("Shpping Charges" + shippingCharges + "<br>")
+
+document.write("Total cost Of your order is " + totalCost + "<br>")
+
+
+
+
+
+   //   question 5  //
+var totalMark = 980;
+var marksObtained = 804;
+var percentage = (marksObtained / totalMark) * 100;
+document.write("<h1>Mark Sheet </h1>")
+document.write("Total Marks: " +totalMark + "<br>")
+document.write("Marks Obtained " + marksObtained + "<br>")
+document.write("Percentage " + percentage + "<br>")
+
+
+
+     // question 6    //
+var totalRupees = (10 * 104.80) + (25 * 28);
+document.write("Total Currency in PKR: " + totalRupees)
+
+
+
+//  question 7 //
+var curYear = +prompt("Enter your a Current Year")
+var birthYear = +prompt("Enter a Birth year")
+var total = (curYear - birthYear)
+document.write("Cuurent Year: " + curYear + "<br>")
+document.write("Birth Year: " + birthYear + "<br>")
+document.write("Your Age is: " + total + "<br>")
+
+
+ // question 8  //
+var favoriteSnack = "chocolate";
+var currentAge = 15;
+var maxAge = 65;
+var estimatedAmountPerDay = 3;
+var yearsRemaining = maxAge - currentAge;
+var daysRemaining = yearsRemaining * 365;
+var totalSnacks = daysRemaining * estimatedAmountPerDay;
+document.write("You will need " + totalSnacks + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".");
+
+ //  question 9  //
+var celsiusTemperature = 25;
+var fahrenheitTemperature = (celsiusTemperature * (9/5)) + 32;
+document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F" + "<br>");
+var fahrenheitTemperature = 77;
+var celsiusTemperature = (fahrenheitTemperature - 32) * (5/9);
+document.write(fahrenheitTemperature + "°F is " + celsiusTemperature + "°C");
+    </script>
+</body>
+</html>
